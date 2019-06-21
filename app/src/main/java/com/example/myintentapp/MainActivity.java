@@ -39,11 +39,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(moveWithDataIntent);
                 break;
             case R.id.btn_dial_number:
-                String phoneNumber = "081210841382";
+                String phoneNumber = "082331042217";
                 Intent dialPhoneIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+phoneNumber));
                 startActivity(dialPhoneIntent);
                 break;
-                
+
         }
     }
 }
