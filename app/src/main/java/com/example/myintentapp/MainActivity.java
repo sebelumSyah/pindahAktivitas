@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_move_activity_data:
                 Intent moveWithDataIntent = new Intent(MainActivity.this, MoveWithDataActivity.class);
-                moveWithDataIntent.putExtra(MoveWithDataActivity.EXTRA_NAME, "DicodingAcademy Boy");
+                moveWithDataIntent.putExtra(MoveWithDataActivity.EXTRA_NAME, "DicodingAcademy Girl");
                 moveWithDataIntent.putExtra(MoveWithDataActivity.EXTRA_AGE, 5);
                 startActivity(moveWithDataIntent);
                 break;
